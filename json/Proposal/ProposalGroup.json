@@ -211,10 +211,10 @@
                 "description": "Gọi nội mạng VNP {1}",
                 "attribute": [
                     {
-                        "id": "1",
-                        "code": "proposal-attribute-511",
+                        "id": "proposal-attribute-511",
+                        "code": "volume",
                         "title": "Số phút",
-                        "dataType": "string",
+                        "dataType": "number",
                         "value": "",
                         "layout": {
                             "ctlType": "TEXTBOX"
@@ -231,10 +231,10 @@
                 "description": "Gọi liên mạng trong nước {1}",
                 "attribute": [
                     {
-                        "id": "1",
-                        "code": "proposal-attribute-521",
+                        "id": "proposal-attribute-521",
+                        "code": "volume",
                         "title": "Số phút",
-                        "dataType": "string",
+                        "dataType": "number",
                         "value": "",
                         "layout": {
                             "ctlType": "TEXTBOX"
@@ -251,10 +251,10 @@
                 "description": "SMS nội mạng VNP {1}",
                 "attribute": [
                     {
-                        "id": "1",
-                        "code": "proposal-attribute-531",
+                        "id": "proposal-attribute-531",
+                        "code": "quantity",
                         "title": "Số lượng",
-                        "dataType": "string",
+                        "dataType": "number",
                         "value": "",
                         "layout": {
                             "ctlType": "TEXTBOX"
@@ -271,7 +271,7 @@
                 "description": "Data truy cập {1} GB/{2}",
                 "attribute": [
                     {
-                        "id": "proposal-attribute-531",
+                        "id": "proposal-attribute-541",
                         "code": "quantity",
                         "title": "Dung lượng",
                         "dataType": "number",
@@ -281,7 +281,7 @@
                         }
                     },
                     {
-                        "id": "proposal-attribute-532",
+                        "id": "proposal-attribute-542",
                         "code": "cycle",
                         "title": "Chu kỳ",
                         "dataType": "string",
@@ -651,7 +651,7 @@
                     {
                         "id": "proposal-attribute-1021",
                         "code": "amount",
-                        "title": "Ngưỡng tiêu dùng",
+                        "title": "Giá gói",
                         "dataType": "number",
                         "value": "",
                         "layout": {
@@ -725,7 +725,7 @@
                     {
                         "id": "proposal-attribute-1051",
                         "code": "amount",
-                        "title": "Ngưỡng tiêu dùng",
+                        "title": "Giá gói",
                         "dataType": "number",
                         "value": "",
                         "layout": {
