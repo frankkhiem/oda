@@ -259,8 +259,12 @@
                     "ctlType": "SELECT-LIST",
                     "extInfo": [
                         {
-                            "label": "MyTV (VTVCab + SPOTV)",
-                            "value": "MyTV (VTVCab + SPOTV)"
+                            "label": "VTVCab",
+                            "value": "VTVCab"
+                        },
+                        {
+                            "label": "SportTV",
+                            "value": "SportTV"
                         }
                     ]
                 }

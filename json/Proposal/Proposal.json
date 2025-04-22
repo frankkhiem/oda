@@ -171,7 +171,7 @@
                 {
                     "id": "proposal-specification-25",
                     "name": "Dịch vụ Add-on",
-                    "shortDescription": "{1}",
+                    "shortDescription": "Dịch vụ cộng thêm {1}",
                     "description": "Dịch vụ cộng thêm {1}",
                     "attribute": [
                         {
@@ -179,7 +179,10 @@
                             "code": "service",
                             "title": "Dịch vụ",
                             "dataType": "string",
-                            "value": "MyTV (VTVCab + SPOTV)"
+                            "value": [
+                                "VTVCab",
+                                "SportTV"
+                            ]
                         }
                     ],
                     "@type": "ProposalSpecification",
