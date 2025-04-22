@@ -276,50 +276,6 @@
                     ],
                     "@type": "ProposalSpecification",
                     "@baseType": "ProposalSpecification"
-                },
-                {
-                    "id": "proposal-specification-82",
-                    "name": "Duy trì MultiSIM",
-                    "shortDescription": "free cước duy trì (25k) {1} MultiSIM ({2})",
-                    "description": "free cước duy trì (25k) {1} MultiSIM ({2})",
-                    "attribute": [
-                        {
-                            "id": "proposal-attribute-821",
-                            "code": "quantity",
-                            "title": "Số lượng",
-                            "dataType": "number",
-                            "value": "",
-                            "layout": {
-                                "ctlType": "TEXTBOX"
-                            }
-                        },
-                        {
-                            "id": "proposal-attribute-822",
-                            "code": "sim_type",
-                            "title": "Loại SIM",
-                            "dataType": "string",
-                            "value": "",
-                            "layout": {
-                                "ctlType": "SELECT-LIST",
-                                "extInfo": [
-                                    {
-                                        "label": "SIM vật lý",
-                                        "value": "SIM vật lý"
-                                    },
-                                    {
-                                        "label": "eSIM",
-                                        "value": "eSIM"
-                                    },
-                                    {
-                                        "label": "SIM vật lý + eSIM",
-                                        "value": "SIM vật lý + eSIM"
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "@type": "ProposalSpecification",
-                    "@baseType": "ProposalSpecification"
                 }
             ],
             "@type": "ProposalGroup",
