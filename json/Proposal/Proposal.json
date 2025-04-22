@@ -292,7 +292,7 @@
                 {
                     "id": "proposal-specification-91",
                     "name": "Chia sẻ Data",
-                    "shortDescription": "Số lượng thành viên {1}, thu thêm {2}/{3}TB, chia sẻ cho mỗi thành viên {4}GB/{5}",
+                    "shortDescription": "Số lượng thành viên {1}, thu thêm {2}K/{3}TB đồng, chia sẻ cho mỗi thành viên {4}GB/{5}",
                     "description": "Cho phép thuê bao đăng ký gói HVC (TB chủ) add thêm thành viên:\n - Số lượng thành viên {1}; thành viên add thêm là TB phát triển số mới.\n - Mỗi thành viên được add thêm TB chủ sẽ thanh toán thêm 2 hoặc 3 thành viên (số PTM); thu thêm {2}K/{3}TB đồng.\n - TB chủ và TB thành viên được gọi cho nhau miễn phí (gồm cả chủ nhóm và thành viên gọi cho nhau; thành viên gọi cho nhau).\n - TB chủ được chia sẻ data cho TB thành viên XX GB/1TB",
                     "attribute": [
                         {
