@@ -129,8 +129,8 @@
             {
                 "id": "proposal-specification-51",
                 "name": "Gọi nội mạng VNP",
-                "shortDescription": "Gọi nội mạng VNP {1}",
-                "description": "Gọi nội mạng VNP {1}",
+                "shortDescription": "{1}",
+                "description": "Gọi nội mạng VNP {1} phút",
                 "attribute": [
                     {
                         "idx": "1",
@@ -149,8 +149,8 @@
             {
                 "id": "proposal-specification-52",
                 "name": "Gọi liên mạng trong nước",
-                "shortDescription": "Gọi liên mạng trong nước {1}",
-                "description": "Gọi liên mạng trong nước {1}",
+                "shortDescription": "{1}",
+                "description": "Gọi liên mạng trong nước {1} phút",
                 "attribute": [
                     {
                         "idx": "1",
@@ -169,7 +169,7 @@
             {
                 "id": "proposal-specification-53",
                 "name": "SMS nội mạng VNP",
-                "shortDescription": "SMS nội mạng VNP {1}",
+                "shortDescription": "{1}",
                 "description": "SMS nội mạng VNP {1}",
                 "attribute": [
                     {
@@ -571,7 +571,7 @@
         "proposalSpecification": [
             {
                 "id": "proposal-specification-121",
-                "name": "Cú pháp đăng ký",
+                "name": "Đăng ký",
                 "shortDescription": "{1} <dấu cách><mã gói main> gửi {2}",
                 "description": "{1} <dấu cách><mã gói main> gửi {2}",
                 "attribute": [
@@ -601,7 +601,7 @@
             },
             {
                 "id": "proposal-specification-122",
-                "name": "Cú pháp hủy",
+                "name": "Hủy",
                 "shortDescription": "{1} <mã gói main> gửi đến số {2}",
                 "description": "{1} <mã gói main> gửi đến số {2}",
                 "attribute": [
@@ -631,7 +631,37 @@
             },
             {
                 "id": "proposal-specification-123",
-                "name": "Cú pháp đăng ký Add-on",
+                "name": "Tra cứu",
+                "shortDescription": "{1} <Tên gói> gửi {2}",
+                "description": "{1} <Tên gói> gửi {2}",
+                "attribute": [
+                    {
+                        "idx": "1",
+                        "code": "content",
+                        "title": "Nội dung",
+                        "dataType": "string",
+                        "value": "",
+                        "layout": {
+                            "ctlType": "TEXTBOX"
+                        }
+                    },
+                    {
+                        "idx": "2",
+                        "code": "switchboard",
+                        "title": "Tổng đài",
+                        "dataType": "string",
+                        "value": "",
+                        "layout": {
+                            "ctlType": "TEXTBOX"
+                        }
+                    }
+                ],
+                "@type": "ProposalSpecification",
+                "@baseType": "ProposalSpecification"
+            },
+            {
+                "id": "proposal-specification-124",
+                "name": "Đăng ký Add-on",
                 "shortDescription": "{1} <dấu cách><mã gói add on> gửi 888",
                 "description": "{1} <dấu cách><mã gói add on> gửi 888",
                 "attribute": [
@@ -650,8 +680,8 @@
                 "@baseType": "ProposalSpecification"
             },
             {
-                "id": "proposal-specification-124",
-                "name": "Cú pháp hủy Add-on",
+                "id": "proposal-specification-125",
+                "name": "Hủy Add-on",
                 "shortDescription": "{1} <mã gói add on> gửi 888",
                 "description": "{1} <mã gói add on> gửi 888",
                 "attribute": [
