@@ -22,7 +22,8 @@
                 "endDateTime": "2024-10-01T00:00:00Z"
             },
             "@type": "ProductPropertySpecification",
-            "@referredType": "PropertySpecification"
+            "@referredType": "ProductPropertySpecification",
+            "@baseType": "ProductPropertySpecification"
         }
     ],
     "@type": "ProductProperty",
