@@ -2,7 +2,6 @@
     "id": "1",
     "name": "Gói liên kết",
     "code": "linkedPackage",
-    "isEnabled": false,
     "description": "Tính chất Gói liên kết",
     "lifecycleStatus": "Active",
     "version": "1",
