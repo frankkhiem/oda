@@ -9,7 +9,7 @@
         "@referredType": "ProductGroup"
     },
     "description": "Danh sách tính chất của gói 2vip199",
-    "property": [
+    "propertySpecification": [
         {
             "id": "1",
             "name": "Gói liên kết",
