@@ -1,0 +1,31 @@
+[    // Collection có 1 bản ghi duy nhất
+    {
+        "id": "1",
+        "name": "Product Property Metadata",
+        "code": "product_property_metadata",
+        "description": "Danh sách tính chất sản phẩm",
+        "propertySpecification": [
+            {
+                "id": "1",
+                "name": "Gói liên kết",
+                "code": "linkedPackage",
+                "dataType": "Boolean", // Mặc định là Boolean
+                "itemIndex": 0,
+                "@type": "ProductPropertyItemSpecification",
+                "@baseType": ""
+            },
+            {
+                "id": "2",
+                "name": "Gói Topup",
+                "code": "topupPackage",
+                "dataType": "Boolean",
+                "itemIndex": 1,
+                "@type": "ProductPropertyItemSpecification",
+                "@baseType": ""
+            }
+        ],
+        "propertyCount": 2,
+        "@type": "ProductPropertySpecification",
+        "@baseType": "ProductPropertySpecification"
+    }
+]

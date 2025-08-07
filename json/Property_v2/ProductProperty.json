@@ -1,0 +1,24 @@
+{
+    "id": "1",
+    "code": "2vip199", 
+    "parentCode": "vip199", 
+    "productGroup": {
+        "id": "1",
+        "name": "TD49",
+        "@type": "ProductGroupRef",
+        "@referredType": "ProductGroup"
+    },
+    "description": "Tính chất của gói 2vip199",
+    "productPropertySpecification": {
+        "id": "1",
+        "name": "Product Property Metadata",
+        "@type": "ProductPropertySpecificationRef",
+        "@referredType": "ProductPropertySpecification"
+    },
+    "propertyCount": 2,
+    "productPropertyItem": [
+        "true", "false"      // Mảng String chứa giá trị convert sang String
+    ],
+    "@type": "ProductProperty",
+    "@baseType": "ProductProperty"
+}
