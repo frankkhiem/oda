@@ -11,6 +11,7 @@
                 "code": "linkedPackage",
                 "dataType": "Boolean", // Mặc định là Boolean
                 "itemIndex": 0,
+                "description": "Tính chất Gói liên kết",
                 "@type": "ProductPropertyItemSpecification",
                 "@baseType": ""
             },
@@ -20,6 +21,7 @@
                 "code": "topupPackage",
                 "dataType": "Boolean",
                 "itemIndex": 1,
+                "description": "Tính chất Gói Topup",
                 "@type": "ProductPropertyItemSpecification",
                 "@baseType": ""
             }
