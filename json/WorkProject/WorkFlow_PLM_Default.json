@@ -1,0 +1,34 @@
+{
+    "id": "6886f9486b3024534d9628a2",
+    "name": "Product Lifecycle Management",
+    "code": "epc_plm",
+    "steps": [
+        {
+            "stepId": "DESIGN",
+            "name": "Thiết kế",
+            "extData": "{\r\n    \"cancelAction\": \"cancelProposal\",\r\n    \"startAction\": \"createProposal\",\r\n    \"executeAction\": \"designProposal\",\r\n    \"completeAction\": \"completeDesignProposal\",\r\n    \"pendingAction\": null,\r\n    \"executeSubTaskAction\": \"designProposalSubTask\"\r\n}"
+        },
+        {
+            "stepId": "DESIGN_APPROVAL",
+            "name": "Duyệt thiết kế",
+            "extData": "{\r\n    \"cancelAction\": \"rejectDesignProposal\",\r\n    \"startAction\": null,\r\n    \"executeAction\": \"approveDesignProposal\",\r\n    \"completeAction\": \"completeApproveDesignProposal\",\r\n    \"pendingAction\": null,\r\n    \"executeSubTaskAction\": \"approveDesignProposalSubTask\"\r\n}"
+        },
+        {
+            "stepId": "CONFIGURE",
+            "name": "Cấu hình",
+            "extData": "{\r\n    \"cancelAction\": \"rejectApproveDesignProposal\",\r\n    \"startAction\": null,\r\n    \"executeAction\": \"configProposal\",\r\n    \"completeAction\": \"completeConfigProduct\",\r\n    \"pendingAction\": null,\r\n    \"executeSubTaskAction\": \"configProposalSubTask\"\r\n}"
+        },
+        {
+            "stepId": "CONFIG_APPROVAL",
+            "name": "Phê duyệt cấu hình",
+            "extData": "{\r\n    \"cancelAction\": \"rejectConfigProduct\",\r\n    \"startAction\": null,\r\n    \"executeAction\": \"viewProductOffering\",\r\n    \"completeAction\": \"completeApproveConfigProduct\",\r\n    \"pendingAction\": null,\r\n    \"executeSubTaskAction\": \"viewProductOffering\"\r\n}"
+        },
+        {
+            "stepId": "TEST",
+            "name": "Kiểm thử",
+            "extData": "{\r\n    \"cancelAction\": \"testReject\",\r\n    \"startAction\": null,\r\n    \"executeAction\": \"viewProductOffering\",\r\n    \"completeAction\": \"completeTestProduct\",\r\n    \"pendingAction\": null,\r\n    \"executeSubTaskAction\": \"viewProductOffering\"\r\n}"
+        }
+    ],
+    "@type": "WorkFlow",
+    "@baseType": "WorkFlow"
+}

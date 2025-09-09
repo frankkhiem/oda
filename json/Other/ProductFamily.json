@@ -1,0 +1,15 @@
+{
+    "id": "663d77c4c92d3d5ea5db3268",
+    "name": "Cố định",
+    "code": "CD",
+    "description": "",
+    "lifecycleStatus": "Active",
+    "version": "1",
+    "validFor": {
+        "startDateTime": "",
+        "endDateTime": ""
+    },
+    "@type": "ProductFamily",
+    "@baseType": "ProductFamily",
+    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductFamily.schema.json"
+}
