@@ -9,6 +9,7 @@
         "startDateTime": "",
         "endDateTime": ""
     },
+    "extData": "{\"dichvuvt_id\":1}",
     "@type": "ProductFamily",
     "@baseType": "ProductFamily",
     "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductFamily.schema.json"

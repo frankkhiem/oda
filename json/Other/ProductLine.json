@@ -18,6 +18,7 @@
         "name": "Cố định",
         "code": "CD"
     },
+    "extData": "{\"dichvuvt_id\":2,\"loaitb_id\":2111}",
     "@type": "ProductLine",
     "@baseType": "ProductLine",
     "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductLine.schema.json"
