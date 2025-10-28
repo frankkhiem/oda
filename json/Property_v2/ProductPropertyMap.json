@@ -5,7 +5,9 @@
     "serviceCode": "VIP199 3T",
     "description": "Tham chiếu mã gói VIP199 3 tháng",
     "quantity": 3,
-    "commitmentQuantity": "18",
+    "commitmentQuantity": 18,
+    "quantityUOM": "month",  // day | week | month
+    "monthType": "30days",  // 30days | endOfMonth
     "@type": "ProductPropertyMap",
     "@baseType": "ProductPropertyMap"
 }
