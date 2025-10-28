@@ -1,8 +1,9 @@
 {
     "id": "1",
     "code": "VIP199", 
-    "systemName": "KMCB",    // CCBS | KMCB | SPS
-    "systemCode": "VIP199 3T",
+    "systemCode": "KMCB",    // CCBS | KMCB | SPS
+    "serviceCode": "VIP199 3T",
+    "description": "Tham chiếu mã gói VIP199 3 tháng",
     "quantity": 3,
     "commitmentQuantity": "18",
     "@type": "ProductPropertyMap",
