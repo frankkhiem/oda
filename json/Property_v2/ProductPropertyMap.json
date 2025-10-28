@@ -1,0 +1,10 @@
+{
+    "id": "1",
+    "code": "VIP199", 
+    "systemName": "KMCB",    // CCBS | KMCB | SPS
+    "systemCode": "VIP199 3T",
+    "quantity": 3,
+    "commitmentQuantity": "18",
+    "@type": "ProductPropertyMap",
+    "@baseType": "ProductPropertyMap"
+}
