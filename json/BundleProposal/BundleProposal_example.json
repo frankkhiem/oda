@@ -1,0 +1,136 @@
+{
+  "id": "4",
+  "name": "Gói OVIP199 Bundle",
+  "code": "BPO_OVIP199",
+  "isBundle": true,
+  "lifecycleStatus": "In design",
+  "bundledProposal": [
+    {
+      "bundledProductOfferingOption": {
+        "numberRelOfferDefault": 1,
+        "numberRelOfferLowerLimit": 1,
+        "numberRelOfferUpperLimit": 1,
+        "@type": "BundledProposalOption",
+        "@baseType": "BundledProposalOption"
+      },
+      "id": "1",
+      "href": "/TMFC102/TMF804/v1/proposal",
+      "name": "OVIP199 Main",
+      "@type": "BundledProposal",
+      "@referredType": "ComponentProposal",
+      "@baseType": "Proposal",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
+    }, // tạo mới
+    {
+      "bundledProductOfferingOption": {
+        "numberRelOfferDefault": 0,
+        "numberRelOfferLowerLimit": 0,
+        "numberRelOfferUpperLimit": 1,
+        "@type": "BundledProposalOption",
+        "@baseType": "BundledProposalOption"
+      },
+      "id": "2",
+      "href": "/TMFC102/TMF804/v1/proposal",
+      "name": "OVIP199 Addon",
+      "@type": "BundledProposal",
+      "@referredType": "ComponentProposal",
+      "@baseType": "Proposal",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
+    }, // tạo mới
+    {
+      "bundledProductOfferingOption": {
+        "numberRelOfferDefault": 0,
+        "numberRelOfferLowerLimit": 0,
+        "numberRelOfferUpperLimit": 1,
+        "@type": "BundledProposalOption",
+        "@baseType": "BundledProposalOption"
+      },
+      "id": "3",
+      "href": "/TMFC102/TMF804/v1/proposal",
+      "name": "OVIP Member",
+      "@type": "BundledProposal",
+      "@referredType": "Proposal",
+      "@baseType": "Proposal",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
+    } // chọn vào
+  ],
+  "proposalRelationship": [
+    {
+      "id": "1",
+      "href": "/TMFC102/TMF804/v1/proposal",
+      "name": "OVIP199 Main",
+      "relationshipType": "accompany",     // accompany tương ứng tạo mới, selection tương ứng chọn vào
+      "@type": "ProposalRelationship",
+      "@referredType": "ComponentProposal",
+      "@baseType": "Proposal",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
+    },
+    {
+      "id": "2",
+      "href": "/TMFC102/TMF804/v1/proposal",
+      "name": "OVIP199 Addon",
+      "relationshipType": "accompany",     // accompany tương ứng tạo mới, selection tương ứng chọn vào
+      "@type": "ProposalRelationship",
+      "@referredType": "ComponentProposal",
+      "@baseType": "Proposal",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
+    },
+    {
+      "id": "3",
+      "href": "/TMFC102/TMF804/v1/proposal",
+      "name": "OVIP Member",
+      "relationshipType": "selection",     // accompany tương ứng tạo mới, selection tương ứng chọn vào
+      "@type": "ProposalRelationship",
+      "@referredType": "Proposal",
+      "@baseType": "Proposal",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
+    }
+  ],
+  "raciMatrix": [
+    {
+      "name": "Gói trả trước",
+      "matrix": {
+        "header": ["VNPT", "Media", "VNPT-IT", "VNP"],
+        "data": [
+          {
+            "label": "Khai báo thư viện mô tả",
+            "value": ["R", "AR", "T", "T"]
+          },
+          {
+            "label": "Khai báo mô tả gói trên EPC",
+            "value": ["AR", "T", "T", "R"]
+          }
+        ]
+      },
+      "@type": "RaciMatrix"
+    }
+  ],
+  "documentInfo": {
+    "plan": "-	Khai báo mới ưu đãi thoại/sms trên OCS theo thiết kế mới template/product", // phương án thực hiện
+    "scope": "-	Mục đích: Triển khai gói cước OVIP199", // mục đích, phạm vi
+    "participant": "-	Trung tâm DTC - VNPT_IT: Phan Ngọc Bình, Nguyễn Hồng Nhung",  // người tham gia
+    "history": [
+      {
+        "version": "1.0",
+        "date": "2025-11-16",
+        "status": "Created",
+        "description": "Tạo mới tài liệu",
+        "author": "Phan Ngọc Bình",
+        "@type": "DocumentHistory"
+      },
+      {
+        "version": "2.0",
+        "date": "2025-11-17",
+        "status": "Updated",
+        "description": "Cập nhật chính sách",
+        "author": "Nguyễn Hồng Nhung",
+        "@type": "DocumentHistory"
+      }
+    ]
+  },
+  "extData": {
+    // extData convert sang String
+  },
+  "@type": "Proposal",
+  "@baseType": "Proposal"
+}

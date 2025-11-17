@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "OVIP199 Main",
+    "code": "OVIP199_Main",
+    "isBundle": false,
+    "parentId": "4",                   // id của BundleProposal cha
+    "groups": ["nội dung mapping Ưu đãi, Điều kiện, ..."],
+    "lifecycleStatus": "In design",    // trạng thái có phụ thuộc vào trạng thái của parentId
+    "@type": "ComponentProposal",      // ComponentProposal đại diện cho Proposal được tạo từ một BundleProposal (chung 1 Product Design với BundleProposal)
+    "@baseType": "Proposal"
+  },
+  {
+    "id": "2",
+    "name": "OVIP199 Addon",
+    "code": "OVIP199_Addon",
+    "isBundle": false,
+    "parentId": "4",                  // id của BundleProposal cha
+    "groups": ["nội dung mapping Ưu đãi, Điều kiện, ..."],
+    "lifecycleStatus": "In design",   // trạng thái có phụ thuộc vào trạng thái của parentId
+    "@type": "ComponentProposal",     // ComponentProposal đại diện cho Proposal được tạo từ một BundleProposal (chung 1 Product Design với BundleProposal)
+    "@baseType": "Proposal"
+  },
+  {
+    "id": "3",
+    "name": "OVIP Member",
+    "code": "OVIP_Member",
+    "isBundle": false,
+    "lifecycleStatus": "Active",      // trạng thái của thành phần chọn vào bắt buộc phải là Active
+    "groups": ["nội dung mapping Ưu đãi, Điều kiện, ..."],
+    "@type": "Proposal",              // Proposal đại diện cho Proposal tạo độc lập từ 1 Product Design riêng biệt
+    "@baseType": "Proposal"
+  }
+]
