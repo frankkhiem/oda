@@ -6,7 +6,7 @@
   "lifecycleStatus": "In design",
   "bundledProposal": [
     {
-      "bundledProductOfferingOption": {
+      "bundledProposalOption": {
         "numberRelOfferDefault": 1,
         "numberRelOfferLowerLimit": 1,
         "numberRelOfferUpperLimit": 1,
@@ -22,7 +22,7 @@
       "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
     }, // tạo mới
     {
-      "bundledProductOfferingOption": {
+      "bundledProposalOption": {
         "numberRelOfferDefault": 0,
         "numberRelOfferLowerLimit": 0,
         "numberRelOfferUpperLimit": 1,
@@ -38,7 +38,7 @@
       "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
     }, // tạo mới
     {
-      "bundledProductOfferingOption": {
+      "bundledProposalOption": {
         "numberRelOfferDefault": 0,
         "numberRelOfferLowerLimit": 0,
         "numberRelOfferUpperLimit": 1,
@@ -126,7 +126,8 @@
         "author": "Nguyễn Hồng Nhung",
         "@type": "DocumentHistory"
       }
-    ]
+    ],
+    "@type": "DocumentInformation"
   },
   "extData": {
     // extData convert sang String
