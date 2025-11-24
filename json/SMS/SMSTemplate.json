@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "href": "/TMFC100/TMF819/v1/smsTemplate",
+        "name": "Đăng ký thành công",     // name tương ứng field Trường hợp trên UI, không cần check unique,
+        "code": "SMS001",                 // validate unique
+        "type": "other",                  // other: Other - Khác, help: Help - Tra cứu
+        "subsType": "prepaid",            // prepaid: Prepaid - Trả trước, postpaid: Postpaid - Trả sau, both: Both - Cả hai
+        "action": "register",             // register: Register - Đăng ký, deregister: Deregister - Hủy, registerMember: Register Member - Đăng ký thành viên, còn nữa..., không dùng cho type = help
+        "status": 1,                      // 1: Success - Thành công, 0: Failed - Thất bại, không dùng cho type = help
+        "errorCode": "0",                 // Mã lỗi, nếu không có lỗi thì để 0, không dùng cho type = help
+        "targetType": 0,                  // 0: Owner - Chủ thuê bao, 1: Member - Thành viên, 2: Old Member- Thành viên cũ, không dùng cho type = help
+        "order": 1,                       // Thứ tự ưu tiên gửi tin, tin có order nhỏ sẽ được gửi trước, không dùng cho type = help
+        "value": "QK da dang ky thanh cong goi cuoc ${productCode} ${shortDescription}. ${mnpCommiment}. ${longDescription} CSKH 18001091(0d).",
+        "relationship": [
+            {
+                "relationshipType": "dependency",
+                "id": "2",
+                "href": "/TMFC100/TMF819/v1/smsTemplate",
+                "name": "Đăng ký thành công",
+                "code": "SMS002",
+                "@type": "SmsTemplateRelationship",
+                "@baseType": "SmsTemplate",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Product/SmsTemplateRelationship.schema.json",
+                "@referredType": "SmsTemplate"
+            }
+        ],
+        "validFor": {
+            "startDateTime": "2025-11-03T00:00:00.000+07:00",
+            "endDateTime": "2025-11-12T00:00:00.000+07:00"
+        },
+        "lifecycleStatus": "Active",
+        "version": "1",
+        "@type": "SmsTemplate",
+        "@baseType": "SmsTemplate"
+    },
+    {
+        "id": "2",
+        "href": "/TMFC100/TMF819/v1/smsTemplate",
+        "name": "Đăng ký thành công",
+        "code": "SMS002",
+        "type": "other",
+        "action": "register",
+        "subsType": "prepaid",
+        "status": 1,
+        "errorCode": "0",
+        "targetType": 0,
+        "order": 2,
+        "value": "Quy khach soan ${addonSyntax} gui 888 de su dung dich vu ${addonDescription}. CSKH: 18001091 (0d).",
+        "validFor": {
+            "startDateTime": "2025-11-03T00:00:00.000+07:00",
+            "endDateTime": "2025-11-12T00:00:00.000+07:00"
+        },
+        "lifecycleStatus": "Active",
+        "version": "1",
+        "@type": "SmsTemplate",
+        "@baseType": "SmsTemplate"
+    },
+    {
+        "id": "3",
+        "href": "/TMFC100/TMF819/v1/smsTemplate",
+        "name": "Đăng ký không thành công do tài khoản không đủ tiền",
+        "code": "SMS072",
+        "type": "other",
+        "action": "register",
+        "subsType": "postpaid",
+        "status": 0,
+        "errorCode": "NOT_ENOUGH_MONEY",
+        "targetType": 0,
+        "order": 1,
+        "value": "Quy khach dang ky khong thanh cong goi cuoc ${productCode} (${shortDescription}) do tai khoan chinh khong du tien. Moi QK nap tien qua My VNPT https://my.vnpt.com.vn/adv/napthe voi nhieu uu dai. Sau do soan tin ${productCode} gui 888 de dang ky lai. CSKH: 18001091(0d).",
+        "validFor": {
+            "startDateTime": "2025-11-03T00:00:00.000+07:00",
+            "endDateTime": "2025-11-12T00:00:00.000+07:00"
+        },
+        "lifecycleStatus": "Active",
+        "version": "1",
+        "@type": "SmsTemplate",
+        "@baseType": "SmsTemplate"
+    },
+    {
+        "id": "4",
+        "href": "/TMFC100/TMF819/v1/smsTemplate",
+        "name": "Gói data 30 ngày: Trả ra dung lượng data của gói >=30 ngày. Ví dụ gói D169T",
+        "code": "HELP001",
+        "type": "help",
+        "subsType": "both",
+        "value": "Cú pháp: TRA CUU ${productCode} \n Đầu số: 900 \n Nội dung: Goi ${productCode}: Goi cuoc su dung den ngay ${expireDate}. Tai khoan goi noi mang VNP con ${remainingInterest}, cac thanh vien nhom : 842866013,842763513. CSKH 18001091(0d)",
+        "validFor": {
+            "startDateTime": "2025-11-03T00:00:00.000+07:00",
+            "endDateTime": "2025-11-12T00:00:00.000+07:00"
+        },
+        "lifecycleStatus": "Active",
+        "version": "1",
+        "@type": "SmsTemplate",
+        "@baseType": "SmsTemplate"
+    }
+]
