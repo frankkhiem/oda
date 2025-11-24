@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "href": "/TMFC100/TMF819/v1/smsGroup",
+        "name": "Bộ 1 _ HVC",
+        "code": "1_HVC",
+        "type": "other",
+        "description": "Đây là nhóm gồm các tin nhắn cho gói có tính chất index 35",
+        "item": [
+            {
+                "id": "1",
+                "href": "/TMFC100/TMF819/v1/smsTemplate",
+                "name": "Đăng ký thành công",
+                "code": "SMS001",
+                "@type": "SmsTemplateRef",
+                "@baseType": "SmsTemplate",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Product/SmsTemplate.schema.json",
+                "@referredType": "SmsTemplate"
+            },
+            {
+                "id": "2",
+                "href": "/TMFC100/TMF819/v1/smsTemplate",
+                "name": "Đăng ký thành công",
+                "code": "SMS002",
+                "@type": "SmsTemplateRef",
+                "@baseType": "SmsTemplate",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Product/SmsTemplate.schema.json",
+                "@referredType": "SmsTemplate"
+            }
+        ],
+        "validFor": {
+            "startDateTime": "2025-11-03T00:00:00.000+07:00",
+            "endDateTime": "2025-11-12T00:00:00.000+07:00"
+        },
+        "lifecycleStatus": "Active",
+        "version": "1",
+        "@type": "SmsGroup",
+        "@baseType": "SmsGroup"
+    },
+    {
+        "id": "2",
+        "href": "/TMFC100/TMF819/v1/smsGroup",
+        "name": "Tra cứu gói trả trước",
+        "code": "Prepaid",
+        "type": "help",
+        "description": "Đây là nhóm gồm các tin nhắn cho gói có tính chất index 35",
+        "item": [
+            {
+                "id": "4",
+                "href": "/TMFC100/TMF819/v1/smsTemplate",
+                "name": "Gói data 30 ngày: Trả ra dung lượng data của gói >=30 ngày. Ví dụ gói D169T",
+                "code": "HELP001",
+                "@type": "SmsTemplateRef",
+                "@baseType": "SmsTemplate",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Product/SmsTemplate.schema.json",
+                "@referredType": "SmsTemplate"
+            }
+        ],
+        "validFor": {
+            "startDateTime": "2025-11-03T00:00:00.000+07:00",
+            "endDateTime": "2025-11-12T00:00:00.000+07:00"
+        },
+        "lifecycleStatus": "Active",
+        "version": "1",
+        "@type": "SmsGroup",
+        "@baseType": "SmsGroup"
+    }
+]

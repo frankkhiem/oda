@@ -11,6 +11,7 @@
         "errorCode": "0",                 // Mã lỗi, nếu không có lỗi thì để 0, không dùng cho type = help
         "targetType": 0,                  // 0: Owner - Chủ thuê bao, 1: Member - Thành viên, 2: Old Member- Thành viên cũ, không dùng cho type = help
         "order": 1,                       // Thứ tự ưu tiên gửi tin, tin có order nhỏ sẽ được gửi trước, không dùng cho type = help
+        "quantity": "1,3,6,9,12",         // không dùng cho type = help
         "value": "QK da dang ky thanh cong goi cuoc ${productCode} ${shortDescription}. ${mnpCommiment}. ${longDescription} CSKH 18001091(0d).",
         "relationship": [
             {
@@ -46,6 +47,7 @@
         "errorCode": "0",
         "targetType": 0,
         "order": 2,
+        "quantity": "1,3,6,9,12",
         "value": "Quy khach soan ${addonSyntax} gui 888 de su dung dich vu ${addonDescription}. CSKH: 18001091 (0d).",
         "validFor": {
             "startDateTime": "2025-11-03T00:00:00.000+07:00",
@@ -68,6 +70,7 @@
         "errorCode": "NOT_ENOUGH_MONEY",
         "targetType": 0,
         "order": 1,
+        "quantity": "1,3,6,9,12",
         "value": "Quy khach dang ky khong thanh cong goi cuoc ${productCode} (${shortDescription}) do tai khoan chinh khong du tien. Moi QK nap tien qua My VNPT https://my.vnpt.com.vn/adv/napthe voi nhieu uu dai. Sau do soan tin ${productCode} gui 888 de dang ky lai. CSKH: 18001091(0d).",
         "validFor": {
             "startDateTime": "2025-11-03T00:00:00.000+07:00",
