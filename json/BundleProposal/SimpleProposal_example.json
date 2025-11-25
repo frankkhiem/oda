@@ -2,10 +2,52 @@
   {
     "id": "1",
     "name": "OVIP199 Main",
-    "code": "OVIP199_Main",
+    "code": "OVIP199",
     "isBundle": false,
     "parentId": "4",                   // id của BundleProposal cha
     "groups": ["nội dung mapping Ưu đãi, Điều kiện, ..."],
+    "smsInfo": {
+      "productCode": "OVIP199",
+      "quantityMatrix": [
+        {
+          "quantity": 1,
+          "productPrice": "199000",
+          "productDuration": "1 thang"
+        },
+        {
+          "quantity": 3,
+          "productPrice": "597000",
+          "productDuration": "1 thang"
+        },
+        {
+          "quantity": 6,
+          "productPrice": "1194000",
+          "productDuration": "6 thang"
+        },
+        {
+          "quantity": 12,
+          "productPrice": "2388000",
+          "productDuration": "12 thang"
+        }
+      ],
+      "longDescription": "2000p noi mang, 250p lien mang trong nuoc, 8GB/ngay (het dung luong dung truy cap)+ MyTV (VTVCab + SPOTV)+ MP data truy cap App Zalo, Facebook,Youtube, Tiktok, Whatsapp. Quyen uu tien su dung dịch vu thoai Volte, Volwifi. Chia se data cho 2 so thue bao thanh vien. (01GB/ngày/1TB) Goi cuoc gia han tu dong",
+      "mnpCommiment": "TG cam ket SD mang VNP 540 ngay tinh tu ngay hom nay (nếu có).",
+      "addonSyntax": "TDV OVIP199 MYTV",
+      "addonDescription": "MYTV(VTVCab + SPOTV)",
+      "memberSyntax": "TTV OVIP199 STB Thanh vien",
+      "memberDescription": "Cuoc 15.000 dong/TB - gia han tu dong; toi da 02 TB; Chia se 1GB/ngay/thue bao",
+      "usageCommitment": "cam kết sử dụng 18 tháng",
+      "registerSyntax": "DK OVIP199",
+      "deregisterSyntax": "HUY OVIP199",
+      "renewalSyntax": "GH OVIP199",
+      "deregisterSyntaxY": "HUY OVIP199 Y",
+      "detailSyntax": "ALOTS OVIP199",
+      "extraCallProduct": "V50 gui 900 chi 50.000 d/30ngay co 80 phut trong nuoc, goi V50 gia han hang thang",
+      "extraDataProduct": "D5 gui 888 chi 5.000 d/ngay co 1GB toc do cao, goi D5 gia han hang ngay",
+      "memberInterest": "1GB/ngay, goi noi nhom mien phi",
+      "memberSearchSyntax": "TRACUUTV OVIP199",
+      "memberCancelSyntax": "XTV OVIP199"
+    },
     "lifecycleStatus": "In design",    // trạng thái có phụ thuộc vào trạng thái của parentId
     "@type": "ComponentProposal",      // ComponentProposal đại diện cho Proposal được tạo từ một BundleProposal (chung 1 Product Design với BundleProposal)
     "@baseType": "Proposal"
@@ -26,6 +68,17 @@
     "name": "OVIP Member",
     "code": "OVIP_Member",
     "isBundle": false,
+    "smsInfo": {
+      "productCode": "OVIP_Member",
+      "quantityMatrix": [
+        {
+          "quantity": 1,
+          "productPrice": "8000",
+          "productDuration": "24h"
+        }
+      ],
+      "longDescription": "1.5 GB"
+    },
     "lifecycleStatus": "Active",      // trạng thái của thành phần chọn vào bắt buộc phải là Active
     "groups": ["nội dung mapping Ưu đãi, Điều kiện, ..."],
     "@type": "Proposal",              // Proposal đại diện cho Proposal tạo độc lập từ 1 Product Design riêng biệt
