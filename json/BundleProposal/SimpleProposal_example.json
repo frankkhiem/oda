@@ -4,7 +4,7 @@
     "name": "OVIP199 Main",
     "code": "OVIP199",
     "isBundle": false,
-    "parentId": "4",                   // id của BundleProposal cha
+    "parentId": "4", // id của BundleProposal cha
     "groups": ["nội dung mapping Ưu đãi, Điều kiện, ..."],
     "smsInfo": {
       "productCode": "OVIP199",
@@ -48,8 +48,8 @@
       "memberSearchSyntax": "TRACUUTV OVIP199",
       "memberCancelSyntax": "XTV OVIP199"
     },
-    "lifecycleStatus": "In design",    // trạng thái có phụ thuộc vào trạng thái của parentId
-    "@type": "ComponentProposal",      // ComponentProposal đại diện cho Proposal được tạo từ một BundleProposal (chung 1 Product Design với BundleProposal)
+    "lifecycleStatus": "In design", // trạng thái có phụ thuộc vào trạng thái của parentId
+    "@type": "ComponentProposal", // ComponentProposal đại diện cho Proposal được tạo từ một BundleProposal (chung 1 Product Design với BundleProposal)
     "@baseType": "Proposal"
   },
   {
@@ -57,10 +57,10 @@
     "name": "OVIP199 Addon",
     "code": "OVIP199_Addon",
     "isBundle": false,
-    "parentId": "4",                  // id của BundleProposal cha
+    "parentId": "4", // id của BundleProposal cha
     "groups": ["nội dung mapping Ưu đãi, Điều kiện, ..."],
-    "lifecycleStatus": "In design",   // trạng thái có phụ thuộc vào trạng thái của parentId
-    "@type": "ComponentProposal",     // ComponentProposal đại diện cho Proposal được tạo từ một BundleProposal (chung 1 Product Design với BundleProposal)
+    "lifecycleStatus": "In design", // trạng thái có phụ thuộc vào trạng thái của parentId
+    "@type": "ComponentProposal", // ComponentProposal đại diện cho Proposal được tạo từ một BundleProposal (chung 1 Product Design với BundleProposal)
     "@baseType": "Proposal"
   },
   {
@@ -79,9 +79,34 @@
       ],
       "longDescription": "1.5 GB"
     },
-    "lifecycleStatus": "Active",      // trạng thái của thành phần chọn vào bắt buộc phải là Active
+    "channelAction": [
+      {
+        "channel": [
+          {
+            "id": "019a724b-e14f-7b50-9e1a-8b279518ac7e",
+            "href": "/TMFC001/TMF815/v1/channel",
+            "name": "Chuỗi TGDD",
+            "code": "tgdd",
+            "@type": "ChannelRef",
+            "@referredType": "Channel"
+          },
+          {
+            "id": "019a724b-e14f-7b50-9e1a-8b279518ac7e",
+            "href": "/TMFC001/TMF815/v1/channel",
+            "name": "SMS",
+            "code": "sms",
+            "@type": "ChannelRef",
+            "@referredType": "Channel"
+          }
+        ],
+        "action": "register,deregister,registerMember,preRenewal",
+        "@type": "AllowedProductAction",
+        "@baseType": "AllowedProductAction"
+      }
+    ],
+    "lifecycleStatus": "Active", // trạng thái của thành phần chọn vào bắt buộc phải là Active
     "groups": ["nội dung mapping Ưu đãi, Điều kiện, ..."],
-    "@type": "Proposal",              // Proposal đại diện cho Proposal tạo độc lập từ 1 Product Design riêng biệt
+    "@type": "Proposal", // Proposal đại diện cho Proposal tạo độc lập từ 1 Product Design riêng biệt
     "@baseType": "Proposal"
   }
 ]

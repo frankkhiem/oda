@@ -59,7 +59,7 @@
       "id": "1",
       "href": "/TMFC102/TMF804/v1/proposal",
       "name": "OVIP199 Main",
-      "relationshipType": "accompany",     // accompany tương ứng tạo mới, selection tương ứng chọn vào
+      "relationshipType": "accompany", // accompany tương ứng tạo mới, selection tương ứng chọn vào
       "@type": "ProposalRelationship",
       "@referredType": "ComponentProposal",
       "@baseType": "Proposal",
@@ -69,7 +69,7 @@
       "id": "2",
       "href": "/TMFC102/TMF804/v1/proposal",
       "name": "OVIP199 Addon",
-      "relationshipType": "accompany",     // accompany tương ứng tạo mới, selection tương ứng chọn vào
+      "relationshipType": "accompany", // accompany tương ứng tạo mới, selection tương ứng chọn vào
       "@type": "ProposalRelationship",
       "@referredType": "ComponentProposal",
       "@baseType": "Proposal",
@@ -79,7 +79,7 @@
       "id": "3",
       "href": "/TMFC102/TMF804/v1/proposal",
       "name": "OVIP Member",
-      "relationshipType": "selection",     // accompany tương ứng tạo mới, selection tương ứng chọn vào
+      "relationshipType": "selection", // accompany tương ứng tạo mới, selection tương ứng chọn vào
       "@type": "ProposalRelationship",
       "@referredType": "Proposal",
       "@baseType": "Proposal",
@@ -108,7 +108,7 @@
   "documentInfo": {
     "plan": "-	Khai báo mới ưu đãi thoại/sms trên OCS theo thiết kế mới template/product", // phương án thực hiện
     "scope": "-	Mục đích: Triển khai gói cước OVIP199", // mục đích, phạm vi
-    "participant": "-	Trung tâm DTC - VNPT_IT: Phan Ngọc Bình, Nguyễn Hồng Nhung",  // người tham gia
+    "participant": "-	Trung tâm DTC - VNPT_IT: Phan Ngọc Bình, Nguyễn Hồng Nhung", // người tham gia
     "history": [
       {
         "version": "1.0",
@@ -129,6 +129,46 @@
     ],
     "@type": "DocumentInformation"
   },
+  "channelAction": [
+    {
+      "channel": [
+        {
+          "id": "019a724b-e14f-7b50-9e1a-8b279518ac7e",
+          "href": "/TMFC001/TMF815/v1/channel",
+          "name": "Chuỗi TGDD",
+          "code": "tgdd",
+          "@type": "ChannelRef",
+          "@referredType": "Channel"
+        },
+        {
+          "id": "019a724b-e14f-7b50-9e1a-8b279518ac7e",
+          "href": "/TMFC001/TMF815/v1/channel",
+          "name": "SMS",
+          "code": "sms",
+          "@type": "ChannelRef",
+          "@referredType": "Channel"
+        }
+      ],
+      "action": "register,deregister,registerMember,preRenewal",
+      "@type": "AllowedProductAction",
+      "@baseType": "AllowedProductAction"
+    },
+    {
+      "channel": [
+        {
+          "id": "019a724b-e14f-7b50-9e1a-8b279518ac7e",
+          "href": "/TMFC001/TMF815/v1/channel",
+          "name": "SMS",
+          "code": "sms",
+          "@type": "ChannelRef",
+          "@referredType": "Channel"
+        }
+      ],
+      "action": "registerAddon",
+      "@type": "AllowedProductAction",
+      "@baseType": "AllowedProductAction"
+    }
+  ],
   "extData": {
     // extData convert sang String
   },
