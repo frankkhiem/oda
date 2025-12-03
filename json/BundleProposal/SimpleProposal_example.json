@@ -104,6 +104,16 @@
         "@baseType": "AllowedProductAction"
       }
     ],
+    "validQuantity": [
+      {
+        "quantity": "1,3,6,9,12",
+        "validFor": {
+          "startDateTime": "2020-09-23T00:00:00Z",
+          "endDateTime": "2021-08-25T00:00:00Z"
+        },
+        "@type": "ValidQuantity"
+      }
+    ],
     "lifecycleStatus": "Active", // trạng thái của thành phần chọn vào bắt buộc phải là Active
     "groups": ["nội dung mapping Ưu đãi, Điều kiện, ..."],
     "@type": "Proposal", // Proposal đại diện cho Proposal tạo độc lập từ 1 Product Design riêng biệt
