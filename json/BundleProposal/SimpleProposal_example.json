@@ -12,22 +12,26 @@
         {
           "quantity": 1,
           "productPrice": "199000",
-          "productDuration": "1 thang"
+          "productDurationPrepaid": "30 ngay",
+          "productDurationPostpaid": "1 thang"
         },
         {
           "quantity": 3,
           "productPrice": "597000",
-          "productDuration": "1 thang"
+          "productDurationPrepaid": "90 ngay",
+          "productDurationPostpaid": "3 thang"
         },
         {
           "quantity": 6,
           "productPrice": "1194000",
-          "productDuration": "6 thang"
+          "productDurationPrepaid": "180 ngay",
+          "productDurationPostpaid": "6 thang"
         },
         {
           "quantity": 12,
           "productPrice": "2388000",
-          "productDuration": "12 thang"
+          "productDurationPrepaid": "360 ngay",
+          "productDurationPostpaid": "12 thang"
         }
       ],
       "longDescription": "2000p noi mang, 250p lien mang trong nuoc, 8GB/ngay (het dung luong dung truy cap)+ MyTV (VTVCab + SPOTV)+ MP data truy cap App Zalo, Facebook,Youtube, Tiktok, Whatsapp. Quyen uu tien su dung dịch vu thoai Volte, Volwifi. Chia se data cho 2 so thue bao thanh vien. (01GB/ngày/1TB) Goi cuoc gia han tu dong",
