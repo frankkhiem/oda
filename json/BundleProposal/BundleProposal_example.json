@@ -54,6 +54,54 @@
       "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
     } // chọn vào
   ],
+  "bundledGroupProposal": [
+    {
+      "id": "1",
+      "name": "Tùy chọn add-on",
+      "bundledGroupProposalOption": {
+        "numberRelOfferLowerLimit": 1,
+        "numberRelOfferUpperLimit": 2,
+        "@type": "BundledGroupProposalOption",
+        "@baseType": "BundledGroupProposalOption"
+      },
+      "bundledProductOffering": [
+        {
+          "bundledProposalOption": {
+            "numberRelOfferDefault": 1,
+            "numberRelOfferLowerLimit": 0,
+            "numberRelOfferUpperLimit": 1,
+            "@type": "BundledProposalOption",
+            "@baseType": "BundledProposalOption"
+          },
+          "id": "4",
+          "href": "/TMFC102/TMF804/v1/proposal",
+          "name": "Addon VieON",
+          "@type": "BundledProposal",
+          "@referredType": "ComponentProposal",
+          "@baseType": "Proposal",
+          "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
+        }, // tạo mới
+        {
+          "bundledProposalOption": {
+            "numberRelOfferDefault": 0,
+            "numberRelOfferLowerLimit": 0,
+            "numberRelOfferUpperLimit": 1,
+            "@type": "BundledProposalOption",
+            "@baseType": "BundledProposalOption"
+          },
+          "id": "5",
+          "href": "/TMFC102/TMF804/v1/proposal",
+          "name": "Addon OnPlus",
+          "@type": "BundledProposal",
+          "@referredType": "ComponentProposal",
+          "@baseType": "Proposal",
+          "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
+        } // chọn vào
+      ],
+      "@type": "BundledGroupProposal",
+      "@baseType": "BundledGroupProposal"
+    }
+  ],
   "proposalRelationship": [
     {
       "id": "1",
@@ -82,6 +130,26 @@
       "relationshipType": "selection", // accompany tương ứng tạo mới, selection tương ứng chọn vào
       "@type": "ProposalRelationship",
       "@referredType": "Proposal",
+      "@baseType": "Proposal",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
+    },
+    {
+      "id": "4",
+      "href": "/TMFC102/TMF804/v1/proposal",
+      "name": "Addon VieON",
+      "relationshipType": "accompany", // accompany tương ứng tạo mới, selection tương ứng chọn vào
+      "@type": "ProposalRelationship",
+      "@referredType": "ComponentProposal",
+      "@baseType": "Proposal",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
+    },
+    {
+      "id": "5",
+      "href": "/TMFC102/TMF804/v1/proposal",
+      "name": "Addon OnPlus",
+      "relationshipType": "selection", // accompany tương ứng tạo mới, selection tương ứng chọn vào
+      "@type": "ProposalRelationship",
+      "@referredType": "ComponentProposal",
       "@baseType": "Proposal",
       "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/Proposal.schema.json"
     }
