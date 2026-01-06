@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "href": "/TMFC014/TMF675/v4/",
+    "name": "Phường Láng",
+    "code": "HNI012",
+    "place": [
+        {
+            "role": "province",
+            "place": {
+                "id": "1",
+                "href": "/TMFC014/TMF675/v4/",
+                "name": "Thành phố Hà Nội",
+                "code": "HNI",
+                "@type": "PlaceRef",
+                "@referredType": "Province",
+                "@baseType": "GeographicLocation"
+            }
+        }
+    ],
+    "@baseType": "GeographicLocation",
+    "@type": "Province"
+  },
+  {
+    "id": "2",
+    "href": "/TMFC014/TMF675/v4/",
+    "name": "Phường An Phú",
+    "code": "HCM035",
+    "place": [
+        {
+            "role": "province",
+            "place": {
+                "id": "2",
+                "href": "/TMFC014/TMF675/v4/",
+                "name": "Thành phố Hồ Chí Minh",
+                "code": "HCM",
+                "@type": "PlaceRef",
+                "@referredType": "Province",
+                "@baseType": "GeographicLocation"
+            }
+        }
+    ],
+    "@baseType": "GeographicLocation",
+    "@type": "Province"
+  }
+]

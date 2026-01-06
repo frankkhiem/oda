@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "href": "/TMFC014/TMF675/v4/",
+    "name": "Thành phố Hà Nội",
+    "code": "HNI",
+    "@baseType": "GeographicLocation",
+    "@type": "Province"
+  },
+  {
+    "id": "2",
+    "href": "/TMFC014/TMF675/v4/",
+    "name": "TP Hồ Chí Minh",
+    "code": "HCM",
+    "@baseType": "GeographicLocation",
+    "@type": "Province"
+  }
+]
