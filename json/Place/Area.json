@@ -2,8 +2,8 @@
   {
     "id": "1",
     "href": "/TMFC014/TMF674/v5/",
-    "name": "VNPT Hà Nội",
-    "code": "VNPT_HNI",
+    "name": "VNPT Hà Nội",                         // name unique trên 1 tỉnh
+    "code": "VNPT_HNI",                            // code unique trên 1 tỉnh
     "creationDate": "2024-03-15T07:44:40.056Z",
     "description": "Hà Nội, VNPT Hà Nội",
     "status": "Active",
