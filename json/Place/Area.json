@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "href": "/TMFC014/TMF674/v5/",
+    "name": "VNPT Hà Nội",
+    "code": "VNPT_HNI",
+    "creationDate": "2024-03-15T07:44:40.056Z",
+    "description": "Hà Nội, VNPT Hà Nội",
+    "status": "Active",
+    "siteCategory": "rootArea",                    // rootArea là loại khu vực gốc, các khu vực con khác sẽ thuộc loại subArea
+    "place": [
+      {
+        "role": "province",                        // Bắt buộc chọn tỉnh đối với khu vực
+        "place": {
+          "id": "1",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "Thành phố Hà Nội",
+          "code": "HNI",
+          "@type": "PlaceRef",
+          "@referredType": "Province",
+          "@baseType": "GeographicLocation"
+        }
+      }
+    ],
+    "@baseType": "GeographicSite",
+    "@type": "Area"
+  },
+  {
+    "id": "2",
+    "href": "/TMFC014/TMF674/v5/",
+    "name": "Khu Vực Nội Thành HNI",
+    "code": "KV_NOITHANH",
+    "creationDate": "2024-03-15T07:44:40.056Z",
+    "description": "Hà Nội, Khu Vực Nội Thành",
+    "status": "Active",
+    "siteCategory": "subArea",                     // rootArea là loại khu vực gốc, các khu vực con khác sẽ thuộc loại subArea
+    "place": [
+      {
+        "role": "parentArea",                      // Bắt buộc đối với khu vực con, tham chiếu đến khu vực cha
+        "place": {
+          "id": "1",
+          "href": "/TMFC014/TMF674/v5/",
+          "name": "VNPT Hà Nội",
+          "code": "VNPT_HNI",
+          "@type": "PlaceRef",
+          "@referredType": "Area",
+          "@baseType": "GeographicSite"
+        }
+      },
+      {
+        "role": "province",                         // Kế thừa tỉnh từ khu vực cha
+        "place": {
+          "id": "1",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "Thành phố Hà Nội",
+          "code": "HNI",
+          "@type": "PlaceRef",
+          "@referredType": "Province",
+          "@baseType": "GeographicLocation"
+        }
+      }
+    ],
+    "@baseType": "GeographicLocation",
+    "@type": "Ward"
+  }
+]
