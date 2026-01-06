@@ -19,7 +19,7 @@
         }
     ],
     "@baseType": "GeographicLocation",
-    "@type": "Province"
+    "@type": "Ward"
   },
   {
     "id": "2",
@@ -41,6 +41,6 @@
         }
     ],
     "@baseType": "GeographicLocation",
-    "@type": "Province"
+    "@type": "Ward"
   }
 ]
