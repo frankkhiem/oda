@@ -4,6 +4,7 @@
     "href": "/TMFC014/TMF675/v4/",
     "name": "Phường Láng",
     "code": "HNI012",
+    "description": "Phường Láng, Thành phố Hà Nội",
     "place": [
         {
             "role": "province",
@@ -26,6 +27,7 @@
     "href": "/TMFC014/TMF675/v4/",
     "name": "Phường An Phú",
     "code": "HCM035",
+    "description": "Phường An Phú, Thành phố Hồ Chí Minh",
     "place": [
         {
             "role": "province",
