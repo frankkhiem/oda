@@ -28,7 +28,7 @@
     "@type": "GeographicAddress"
   },
   {
-    "id": "3",                                                          // Địa chỉ của 1 Phòng giao dịch/Văn phòng/Chi nhánh (Gọi chung là Đơn vị kinh doanh - Business Office)
+    "id": "3",                                                          // Địa chỉ của 1 Phòng giao dịch/Văn phòng/Chi nhánh (Gọi chung là Địa điểm kinh doanh - Business Office)
     "href": "/TMFC014/TMF673/v5/",
     "geographicAddressType": "officeAddress",
     "name": "Số 75, Đinh Tiên Hoàng, Phường Hoàn Kiếm, Thành phố Hà Nội",
@@ -42,7 +42,7 @@
     "@type": "GeographicAddress"
   },
   {
-    "id": "4",                                                          // Địa chỉ của 1 Phòng giao dịch/Văn phòng/Chi nhánh (Gọi chung là Đơn vị kinh doanh - Business Office)
+    "id": "4",                                                          // Địa chỉ của 1 Phòng giao dịch/Văn phòng/Chi nhánh (Gọi chung là Địa điểm kinh doanh - Business Office)
     "href": "/TMFC014/TMF673/v5/",
     "geographicAddressType": "officeAddress",
     "name": "Số 366 Đường Ngọc Lâm, Phường Bồ Đề, Thành phố Hà Nội",

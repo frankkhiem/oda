@@ -23,7 +23,7 @@
         }
       },
       {
-        "role": "ward", // Không bắt buộc chọn phường/xã đối với địa điểm kinh doanh
+        "role": "ward", // Không bắt buộc chọn phường/xã đối với Địa điểm kinh doanh
         "place": {
           "id": "1",
           "href": "/TMFC014/TMF675/v4/",
@@ -47,7 +47,7 @@
       }
     ],
     "contactMedium": [
-      // Thông tin liên hệ của Đơn vị kinh doanh
+      // Thông tin liên hệ của Địa điểm kinh doanh
       {
         "id": "019b20c4-81f8-7990-bdc5-a1d0693adec2",
         "contactType": "officialEmail",
@@ -127,7 +127,7 @@
         }
       },
       {
-        "role": "ward", // Kế thừa từ cha, có thể sửa. Không bắt buộc chọn phường/xã đối với địa điểm kinh doanh
+        "role": "ward", // Kế thừa từ cha, có thể sửa. Không bắt buộc chọn phường/xã đối với Địa điểm kinh doanh
         "place": {
           "id": "1",
           "href": "/TMFC014/TMF675/v4/",
@@ -151,15 +151,15 @@
       }
     ],
     "siteFeature": [
-      // Chức năng của Đơn vị kinh doanh (Tương đương Loại đơn vị trong OneBSS)
+      // Chức năng của Địa điểm kinh doanh (Tương đương Loại đơn vị trong OneBSS)
       {
         "id": "1",
         "href": "/TMFC014/TMF674/v5/",
         "name": "Phòng giao dịch",
         "code": "transactionOffice",
-        "featureCategory": ["BusinessOfficeFeature"], // Mặc định chức năng của Đơn vị kinh doanh, featureCategory có 1 giá trị là BusinessOfficeFeature, dùng để gom nhóm GeographicSiteFeature trong tương lai nếu cần bổ sung thông tin khác vào mảng
+        "featureCategory": ["BusinessOfficeFeature"], // Mặc định chức năng của Địa điểm kinh doanh, featureCategory có 1 giá trị là BusinessOfficeFeature, dùng để gom nhóm GeographicSiteFeature trong tương lai nếu cần bổ sung thông tin khác vào mảng
         "validFor": [
-          { // Thời gian hoạt động của Đơn vị kinh doanh dưới vai trò là Phòng giao dịch
+          { // Thời gian hoạt động của Địa điểm kinh doanh dưới vai trò là Phòng giao dịch
             "@type": "CalendarPeriod",
             "day": "weekdays",
             "timeZone": "UTC+7",
@@ -181,7 +181,7 @@
         "href": "/TMFC014/TMF674/v5/",
         "name": "Tổng đài hỗ trợ khách hàng",
         "code": "customerSupportCenter",
-        "featureCategory": ["BusinessOfficeFeature"], // Mặc định chức năng của Đơn vị kinh doanh, featureCategory có 1 giá trị là BusinessOfficeFeature, dùng để gom nhóm GeographicSiteFeature trong tương lai nếu cần bổ sung thông tin khác vào mảng
+        "featureCategory": ["BusinessOfficeFeature"], // Mặc định chức năng của Địa điểm kinh doanh, featureCategory có 1 giá trị là BusinessOfficeFeature, dùng để gom nhóm GeographicSiteFeature trong tương lai nếu cần bổ sung thông tin khác vào mảng
         "validFor": [
           {
             "@type": "CalendarPeriod",
