@@ -1,0 +1,207 @@
+[
+  // Business Office - Địa điểm Kinh doanh
+  {
+    "id": "1",
+    "href": "/TMFC014/TMF674/v5/",
+    "name": "VNPT Hà Nội", // name cần check unique
+    "code": "201.711.603.001", // code nhập, check unique
+    "creationDate": "2024-03-15T07:44:40.056Z",
+    "description": "Đơn vị kinh doanh Hà Nội",
+    "status": "Active",
+    "siteCategory": "rootOffice",
+    "place": [
+      {
+        "role": "province", // Không bắt buộc chọn tỉnh đối với Địa điểm kinh doanh
+        "place": {
+          "id": "1",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "Thành phố Hà Nội",
+          "code": "HNI",
+          "@type": "PlaceRef",
+          "@referredType": "Province",
+          "@baseType": "GeographicLocation"
+        }
+      },
+      {
+        "role": "ward", // Không bắt buộc chọn phường/xã đối với địa điểm kinh doanh
+        "place": {
+          "id": "1",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "Phường Láng",
+          "code": "HNI012",
+          "@type": "PlaceRef",
+          "@referredType": "Ward",
+          "@baseType": "GeographicLocation"
+        }
+      },
+      {
+        "role": "officeAddress", // Bắt buộc 1 Địa chỉ văn phòng
+        "place": {
+          "id": "3",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "Số 75, Đinh Tiên Hoàng, Phường Hoàn Kiếm, Thành phố Hà Nội",
+          "@type": "PlaceRef",
+          "@referredType": "GeographicAddress",
+          "@baseType": "GeographicAddress"
+        }
+      }
+    ],
+    "contactMedium": [
+      // Thông tin liên hệ của Đơn vị kinh doanh
+      {
+        "id": "019b20c4-81f8-7990-bdc5-a1d0693adec2",
+        "contactType": "officialEmail",
+        "preferred": true,
+        "emailAddress": "vnpt-hn@vnpt.vn",
+        "@type": "EmailContactMedium",
+        "@baseType": "ContactMedium"
+      },
+      {
+        "id": "019b20c4-81f8-7990-bdc5-a1d0693adec2",
+        "contactType": "alternativeEmail",
+        "preferred": false,
+        "emailAddress": "abc@vnpt.vn",
+        "@type": "EmailContactMedium",
+        "@baseType": "ContactMedium"
+      },
+      {
+        "id": "019b20c4-81f8-7990-bdc5-a1d0693adec2",
+        "contactType": "officialPhoneNumber",
+        "preferred": true,
+        "phoneNumber": "02437335566",
+        "@type": "PhoneContactMedium",
+        "@baseType": "ContactMedium"
+      },
+      {
+        "id": "019b20c4-81f8-7990-bdc5-a1d0693adec2",
+        "contactType": "mobilePhoneNumber",
+        "preferred": false,
+        "phoneNumber": "0888888888",
+        "@type": "PhoneContactMedium",
+        "@baseType": "ContactMedium"
+      },
+      {
+        "id": "019b20c4-81f8-7990-bdc5-a1d0693adec2",
+        "contactType": "officialFaxNumber",
+        "preferred": true,
+        "faxNumber": "02437335567",
+        "@type": "FaxContactMedium",
+        "@baseType": "ContactMedium"
+      }
+    ],
+    "@baseType": "GeographicSite",
+    "@type": "BusinessOffice"
+  },
+  {
+    "id": "2",
+    "href": "/TMFC014/TMF674/v5/",
+    "name": "ĐGD_366 Ngọc Lâm - VNPT Long Biên", // name cần check unique
+    "code": "201.711.603.002", // code nhập, check unique
+    "creationDate": "2024-03-15T07:44:40.056Z",
+    "description": "Phòng giao dịch tại Long Biên - Hà Nội",
+    "status": "Active",
+    "siteCategory": "subOffice",
+    "place": [
+      {
+        "role": "parentOffice", // Bắt buộc đối với khu vực con, tham chiếu đến khu vực cha
+        "place": {
+          "id": "1",
+          "href": "/TMFC014/TMF674/v5/",
+          "name": "VNPT Hà Nội",
+          "code": "201.711.603.001",
+          "@type": "PlaceRef",
+          "@referredType": "BusinessOffice",
+          "@baseType": "GeographicSite"
+        }
+      },
+      {
+        "role": "province", // Kế thừa từ cha, có thể sửa. Không bắt buộc chọn tỉnh đối với Địa điểm kinh doanh
+        "place": {
+          "id": "1",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "Thành phố Hà Nội",
+          "code": "HNI",
+          "@type": "PlaceRef",
+          "@referredType": "Province",
+          "@baseType": "GeographicLocation"
+        }
+      },
+      {
+        "role": "ward", // Kế thừa từ cha, có thể sửa. Không bắt buộc chọn phường/xã đối với địa điểm kinh doanh
+        "place": {
+          "id": "1",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "Phường Láng",
+          "code": "HNI012",
+          "@type": "PlaceRef",
+          "@referredType": "Ward",
+          "@baseType": "GeographicLocation"
+        }
+      },
+      {
+        "role": "officeAddress", // Bắt buộc 1 Địa chỉ văn phòng
+        "place": {
+          "id": "4",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "Số 366 Đường Ngọc Lâm, Phường Bồ Đề, Thành phố Hà Nội",
+          "@type": "PlaceRef",
+          "@referredType": "GeographicAddress",
+          "@baseType": "GeographicAddress"
+        }
+      }
+    ],
+    "siteFeature": [
+      // Chức năng của Đơn vị kinh doanh (Tương đương Loại đơn vị trong OneBSS)
+      {
+        "id": "1",
+        "href": "/TMFC014/TMF674/v5/",
+        "name": "Phòng giao dịch",
+        "code": "transactionOffice",
+        "featureCategory": ["BusinessOfficeFeature"], // Mặc định chức năng của Đơn vị kinh doanh, featureCategory có 1 giá trị là BusinessOfficeFeature, dùng để gom nhóm GeographicSiteFeature trong tương lai nếu cần bổ sung thông tin khác vào mảng
+        "validFor": [
+          { // Thời gian hoạt động của Đơn vị kinh doanh dưới vai trò là Phòng giao dịch
+            "@type": "CalendarPeriod",
+            "day": "weekdays",
+            "timeZone": "UTC+7",
+            "hourPeriod": [
+              {
+                "@type": "HourPeriod",
+                "endHour": "17",
+                "startHour": "8"
+              }
+            ],
+            "status": "Open"
+          }
+        ],
+        "@baseType": "Feature",
+        "@type": "GeographicSiteFeature"
+      },
+      {
+        "id": "2",
+        "href": "/TMFC014/TMF674/v5/",
+        "name": "Tổng đài hỗ trợ khách hàng",
+        "code": "customerSupportCenter",
+        "featureCategory": ["BusinessOfficeFeature"], // Mặc định chức năng của Đơn vị kinh doanh, featureCategory có 1 giá trị là BusinessOfficeFeature, dùng để gom nhóm GeographicSiteFeature trong tương lai nếu cần bổ sung thông tin khác vào mảng
+        "validFor": [
+          {
+            "@type": "CalendarPeriod",
+            "day": "allweek",
+            "timeZone": "UTC+7",
+            "hourPeriod": [
+              {
+                "@type": "HourPeriod",
+                "endHour": "24",
+                "startHour": "0"
+              }
+            ],
+            "status": "Open"
+          }
+        ],
+        "@baseType": "Feature",
+        "@type": "GeographicSiteFeature"
+      }
+    ],
+    "@baseType": "GeographicSite",
+    "@type": "BusinessOffice"
+  }
+]

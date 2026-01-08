@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "href": "/TMFC014/TMF674/v5/",
+    "name": "Tòa nhà trụ sở VNPT",                 // name không cần check unique
+    "code": "0000000001TN",                        // code tự sinh, 10 ký tự số + TN
+    "creationDate": "2024-03-15T07:44:40.056Z",
+    "description": "Tòa nhà chính trụ sở tập đoàn Bưu chính viễn thông Việt Nam",
+    "status": "Active",
+    "siteCategory": "building",
+    "place": [
+      {
+        "role": "province",                        // Bắt buộc chọn tỉnh đối với tòa nhà
+        "place": {
+          "id": "1",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "Thành phố Hà Nội",
+          "code": "HNI",
+          "@type": "PlaceRef",
+          "@referredType": "Province",
+          "@baseType": "GeographicLocation"
+        }
+      },
+      {
+        "role": "ward",                           // Bắt buộc chọn phường/xã đối với tòa nhà
+        "place": {
+          "id": "1",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "Phường Láng",
+          "code": "HNI012",
+          "@type": "PlaceRef",
+          "@referredType": "Ward",
+          "@baseType": "GeographicLocation"
+        }
+      },
+      {
+        "role": "mainAddress",                     // Địa chỉ chính, bắt buộc đối với tòa nhà, duy nhất 1 địa chỉ chính
+        "place": {
+          "id": "2",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "57 Huỳnh Thúc Kháng, Phường Láng, Thành phố Hà Nội",
+          "@type": "PlaceRef",
+          "@referredType": "GeographicAddress",
+          "@baseType": "GeographicAddress"
+        }
+      },
+      {
+        "role": "subAddress",                     // Địa chỉ phụ, bắt buộc đối với tòa nhà, có thể có nhiều địa chỉ phụ
+        "place": {
+          "id": "1",
+          "href": "/TMFC014/TMF675/v4/",
+          "name": "97 Nguyễn Chí Thanh, Phường Láng, Thành phố Hà Nội",
+          "@type": "PlaceRef",
+          "@referredType": "GeographicAddress",
+          "@baseType": "GeographicAddress"
+        }
+      }
+    ],
+    "@baseType": "GeographicSite",
+    "@type": "Building"
+  }
+]
