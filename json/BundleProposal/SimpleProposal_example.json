@@ -118,7 +118,10 @@
         "@type": "ValidQuantity"
       }
     ],
-    "quantityUnitOfMeasure": "day",
+    "cycleLength": {
+      "value": 1,
+      "unitOfMeasure": "day"
+    },
     "lifecycleStatus": "Active", // trạng thái của thành phần chọn vào bắt buộc phải là Active
     "groups": ["nội dung mapping Ưu đãi, Điều kiện, ..."],
     "@type": "Proposal", // Proposal đại diện cho Proposal tạo độc lập từ 1 Product Design riêng biệt

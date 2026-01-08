@@ -247,7 +247,10 @@
       "@type": "ValidQuantity"
     }
   ],
-  "quantityUnitOfMeasure": "month",
+  "cycleLength": {
+    "value": 1,
+    "unitOfMeasure": "month"
+  },
   "extData": {
     // extData convert sang String
   },

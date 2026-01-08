@@ -45,7 +45,7 @@
         }
       },
       {
-        "role": "subAddress",                     // Địa chỉ phụ, bắt buộc đối với tòa nhà, có thể có nhiều địa chỉ phụ
+        "role": "subAddress",                     // Địa chỉ phụ, không bắt buộc đối với tòa nhà, có thể có nhiều địa chỉ phụ
         "place": {
           "id": "1",
           "href": "/TMFC014/TMF675/v4/",
