@@ -217,7 +217,7 @@
           "@referredType": "Channel"
         }
       ],
-      "action": "register,deregister,registerMember,preRenewal",
+      "action": "register,deregister,registerMember,earlyRenewal",
       "@type": "AllowedProductAction",
       "@baseType": "AllowedProductAction"
     },
