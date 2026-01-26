@@ -17,7 +17,7 @@
     },
     "productPropertyRelationship": [
         {
-            "relationshipType": "changeService",     // Hiện tại có 1 option duy nhất là changeService - Change Service - Chuyển đổi sản phẩm
+            "relationshipType": "changeService",     // Hiện tại có 1 option duy nhất là changeService - Change Service - Sản phẩm chuyển đổi
             "id": "2",
             "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/556788",
             "name": "D169T",
