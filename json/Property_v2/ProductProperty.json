@@ -15,6 +15,17 @@
         "@type": "ProductPropertySpecificationRef",
         "@referredType": "ProductPropertySpecification"
     },
+    "productPropertyRelationship": [
+        {
+            "relationshipType": "changeService",     // Hiện tại có 1 option duy nhất là changeService - Change Service - Chuyển đổi sản phẩm
+            "id": "2",
+            "href": "https://mycsp.com:8080/tmf-api/resourceCatalog/v5/resourceSpecification/556788",
+            "name": "D169T",
+            "code": "D169T",
+            "@type": "ProductPropertyRelationship",
+            "@referredType": "ProductProperty"
+        }
+    ],
     "propertyCount": 2,
     "productPropertyItem": [
         "true", "false"      // Mảng String chứa giá trị convert sang String
