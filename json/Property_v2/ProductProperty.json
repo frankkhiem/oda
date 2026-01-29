@@ -8,6 +8,7 @@
         "@type": "ProductGroupRef",
         "@referredType": "ProductGroup"
     },
+    "isHVC": true,
     "description": "Tính chất của gói 2vip199",
     "productPropertySpecification": {
         "id": "1",
