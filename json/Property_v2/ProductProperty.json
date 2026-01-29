@@ -27,6 +27,7 @@
         }
     ],
     "propertyCount": 2,
+    "propertyMain": "linkedPackage",
     "productPropertyItem": [
         "true", "false"      // Mảng String chứa giá trị convert sang String
     ],
