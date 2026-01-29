@@ -8,7 +8,7 @@
         "@type": "ProductGroupRef",
         "@referredType": "ProductGroup"
     },
-    "isHVC": false,
+    "isComplexRevenueSharing": false,                         // Phân chia lại doanh thu - Complex Revenue Sharing
     "description": "Tính chất của gói 2vip199",
     "productPropertySpecification": {
         "id": "1",
