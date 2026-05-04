@@ -1,0 +1,19 @@
+{
+    "id": "670cecf2879a220fe63061c4",
+    "name": "BUNDLE GENAI155",            // Cột SIM BUNDLE
+    "accAlo": "6926001155",
+    "cosSim": "VINA690",
+    "productCode": "GENAI155",
+    "quantity": 1,
+    "cycleLength": {                      // Dùng class Duration trong sid-model
+        "amount": 30,
+        "units": "day"
+    },
+    "description": "",
+    "lifecycleStatus": "Active",
+    "lastUpdate": "2026-05-04T10:33:47.413+07:00",
+    "creationDate": "2026-05-04T10:33:47.413+07:00",
+    "@type": "SimBundleSpecification",
+    "@baseType": "SimBundleSpecification",
+    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/SimBundleSpecification.schema.json"
+}
