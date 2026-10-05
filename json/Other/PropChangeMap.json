@@ -1,0 +1,15 @@
+{
+    "id": "",
+    "href": "/TMFX001/TMF806/v1/propChangeMap",
+    "code": "TH",    //destination code (Mã tính chất chính của gói được chuyển đến)
+    "srcList": ["TH_D","TH_DCD","TH"], // Mã tính chất chính của gói chuyển đi
+    "description": "",
+    "lastUpdate": "2024-01-01T00:00:00Z",
+    "lifecycleStatus": "Active",
+    "validFor": {
+        "startDateTime": "2024-01-01T00:00:00Z",
+        "endDateTime": "2024-12-31T23:59:59Z"
+    },
+    "@type": "PropChangeMap",
+    "@baseType": "PropChangeMap"
+}
