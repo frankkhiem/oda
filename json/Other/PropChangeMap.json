@@ -1,7 +1,7 @@
 {
     "id": "",
     "href": "/TMFX001/TMF806/v1/propChangeMap",
-    "code": "TH",    //destination code (Mã tính chất chính của gói được chuyển đến)
+    "destCode": "TH",    //destination code (Mã tính chất chính của gói được chuyển đến)
     "srcList": ["TH_D","TH_DCD","TH"], // Mã tính chất chính của gói chuyển đi
     "description": "",
     "lastUpdate": "2024-01-01T00:00:00Z",
